@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div id="search-container">
+            <input type="search" id="search-input" placeholder="Search"/>
+            <button id="search">search</button>
+        </div>
+        <div id="buttons">
+            <button class="button-value" onclick="filterPhone('all')">All</button>
+            <button class="button-value" onclick="filterPhone('Administracja')">Administracja</button>
+            <button class="button-value" onclick="filterPhone('Sekretariat')">Sekretariat</button>
+            <button class="button-value" onclick="filterPhone('Oddział')">Oddział</button>
+        </div>
+        <div id="hospital"></div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
